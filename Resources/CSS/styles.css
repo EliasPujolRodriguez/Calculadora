@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.encabezado {
+  background-color: #d3d3d3;
+  padding: 20px 20px 20px;
+}
+
+.titulo1 {
+  text-align: center;
+  color: royalblue;
+}
+
+.mainPrincipal {
+  max-width: 300px;
+  padding: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal {
+  margin-top: -170px;
+  margin-bottom: 10px;
+}
+
+.resultado {
+  background-color: #44c4a1;
+  width: 390px;
+  padding: 20px;
+  border: 0px solid #dddddd;
+  border-radius: 20px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9,
+.btn0,
+.btnPuntoDecimal {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: #e1e6e9;
+  border: 0px solid #dddddd;
+  color: black;
+  transition: padding 0.5s ease;
+}
+
+.btnSuma,
+.btnResta,
+.btnMultiplicacion,
+.btnDivision,
+.btnIgual {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: #4ad295;
+  border: 0px solid #dddddd;
+  color: black;
+  transition: padding 0.5s ease;
+}
+
+.btnC {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: #e56353;
+  border: 0px solid #dddddd;
+  color: black;
+  transition: padding 0.5s ease;
+}
+
+.btnRaiz {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: #e56353;
+  border: 0px solid #dddddd;
+  color: black;
+  transition: padding 0.5s ease;
+}
+
+.btnC:hover,
+.btnRaiz:hover,
+.btnPorcentaje:hover .resultado:hover {
+  padding: 40px;
+}
+
+.btnPorcentaje {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px 20px 20px 20px;
+  background-color: #e56353;
+  border: 0px solid #dddddd;
+  color: black;
+  transition: padding 0.5s ease;
+}
+.footer {
+  background-color: #e3e9ed;
+}
